@@ -2,6 +2,10 @@ package Question;
 
 import java.util.Stack;
 
+/**
+ * @author suraj.singh
+ *
+ */
 public class ExpressionConversion {
 	
 	public boolean isOperator(char c) {
@@ -15,7 +19,7 @@ public class ExpressionConversion {
 		}
 		return false;
 	}
-	public int precedence(char c) {
+	public static int precedence(char c) {
 		switch(c) {
 		case '+':
 		case '-':
